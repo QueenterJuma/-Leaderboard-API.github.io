@@ -8,12 +8,12 @@ class Participant {
     const gameId = "games/UzywzfdgV3gYuNVGXIwX/scores/";
     const url =
       `https://us-central1-js-capstone-backend.cloudfunctions.net/api/${gameId}`;
-    const result = await fetch(url, {
+    const response = await fetch(url, {
       method: "post",
       body: JSON.stringify(participantObj),
       headers: { "Content-Type": "application/json" },
     });
-    await result.json();
+    await response.json();
   };
 }
 

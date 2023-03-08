@@ -15,7 +15,9 @@
           <h3>Recent Scores</h3>
           <button class="refresh-btn">Refresh</button>
         </div>
-        <div class="board">
+        <div class="board" id="board"></div>
+        
+        <!-- <ul class="board" id="board">
           <li>Prince: <span>130</span></li>
           <li>Tommy: <span>80</span></li>
           <li>Precious: <span>67</span></li>
@@ -24,7 +26,7 @@
           <li>Caleb: <span>78</span></li>
           <li>Hulder: <span>115</span></li>
           <li>Clare: <span>32</span></li>
-        </div>
+        </ul> -->
       </div>
 
       <div class="add-score">
@@ -34,19 +36,20 @@
             type="text"
             id="data"
             class="name"
-            placeholder="Your name"
+            placeholder="Name"
             required
           /><br />
           <input
             type="text"
             id="data"
             class="score"
-            placeholder="Your score"
+            placeholder="Score"
             required
           /><br />
           <input type="submit" class="submit" value="submit" />
         </form>
       </div>
     </div>
+    <div id="results">Success! your score has been saved..</div>
   </body>
 </html>
