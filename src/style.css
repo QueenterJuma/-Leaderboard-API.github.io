@@ -97,6 +97,7 @@ input {
   display: flex;
   flex-direction: column;
   margin-top: 15px;
+  width: 100%;
 }
 
 .submit {
@@ -112,9 +113,7 @@ input {
   height: 50px;
 }
 
-
 #results {
-  visibility: hidden;
   min-width: 300px;
   background-color: #92b4ec;
   color: #fff;
@@ -129,7 +128,7 @@ input {
   top: 100px;
 }
 
-#results .view {
+.view {
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
