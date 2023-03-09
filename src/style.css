@@ -5,9 +5,6 @@
 
 body {
   font-size: 25px;
-  background-color: #492659;
-  display: flex;
-  flex-direction: column;
 }
 
 h1,
@@ -30,13 +27,27 @@ h3 {
   display: flex;
   gap: 150px;
   justify-content: center;
-  /* align-items: center; */
   margin: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bouncing-heading {
+    font-size: 3rem;
+  }
+
+  .score-header {
+    gap: 3rem;
+  }
 }
 
 .add-score,
 .score-board {
-  width: 40%;
+  width: 100%;
 }
 
 .board {
@@ -47,6 +58,7 @@ h3 {
   box-shadow: 8px 5px 8px 8px #888;
   overflow-y: scroll;
   max-height: 560px;
+  width: 100%;
 }
 
 .board li {
@@ -87,8 +99,8 @@ h3 {
 
 input {
   display: flex;
-  width: 500px;
-  height: 40px;
+  width: 100%;
+  height: auto;
   padding: 5px;
   font-size: 25px;
 }
@@ -188,15 +200,15 @@ input {
   font-size: 70px;
   color: #fffbeb;
   font-weight: bolder;
-  margin: 50px auto 0 auto;
-  /* margin-top: 50px; */
-  /* border: 1px solid red; */
+  margin: 50px;
 }
 
 .bouncing-heading {
   display: flex;
+
+  /* align-items: center; */
 }
-/* Style the letters: */
+
 .l,
 .e,
 .a,
@@ -208,8 +220,6 @@ input {
   text-shadow: 0 3px grey, 0 5px grey, 0 7px grey;
   margin: 3px;
 }
-
-/* Add the bounce effect animation: */
 
 @keyframes bounce {
   0% {
@@ -269,7 +279,6 @@ input {
   animation: bounce 1s ease infinite 0.6s;
 }
 
-/* add shadow */
 .bouncing-text::before,
 .bouncing-text::after {
   content: "";
@@ -353,4 +362,3 @@ input {
   left: 285px;
   animation: scale 1s linear infinite 0.5s;
 }
-
