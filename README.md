@@ -103,7 +103,7 @@ Install this project with:
 ```
 ### Usage
  
-To run the project, open index.html in your text editor,right-click and open with live server,it will be opened in your web browser.
+To run the project, open open the terminal and run npm start,it will be opened in your web browser.
  
 <!-- AUTHORS -->
  
