@@ -63,10 +63,10 @@ One attachment
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 <!-- LIVE DEMO -->
- 
-## 🚀 Live Demo <a name="[live-demo](https://queenterjuma.github.io/-Leaderboard-API.github.io/dist/)"></a>
- 
- 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo On Github page](https://queenterjuma.github.io/-Leaderboard-API.github.io/dist/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 <!-- GETTING STARTED -->
