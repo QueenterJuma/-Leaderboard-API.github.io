@@ -63,9 +63,8 @@ One attachment
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 <!-- LIVE DEMO -->
-## 🚀 Live Demo (https://queenterjuma.github.io/-Leaderboard-API.github.io/dist/)
 
-- [Live Demo On Github page](https://queenterjuma.github.io/-Leaderboard-API.github.io/dist/)
+## 🚀 Live Demo <a name="[live-demo](https://queenterjuma.github.io/-Leaderboard-API.github.io/dist/)"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
